@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: #30336b;
+    ul {
+        display: flex;
+        height: 50px; 
+        li {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            height: 100%;
+            &:hover {
+                background-color: #414481; 
+            }
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                color: white; 
+                padding: 10px 15px;
+            }        
+        }     
+    }
+}

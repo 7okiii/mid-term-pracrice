@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background-color: #30336b;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+}
+
+.nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  height: 100%;
+}
+
+.nav ul li:hover {
+  background-color: #414481;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 15px;
+}
+/*# sourceMappingURL=master.css.map */
